@@ -1,0 +1,189 @@
+/* цвет основного текста #212121 */
+/* вторичный цвет текста #757575 */
+/* белый #ffffff */
+/* акцент #2196f3 */
+body {
+    background-color: #fff;
+    color: #212121;
+    font-family: Roboto, sans-serif ;
+}
+.link {
+    list-style: none;
+}
+.button-services {
+    cursor: pointer;
+}
+ 
+
+.logo {
+color:#2196f3 ;
+font-family: Raleway;
+font-style: 400;
+font-weight: 700;
+font-size: 26px;
+line-height: 1.2;
+letter-spacing: 0.03em;
+}
+
+/* site nav! */
+
+.site-nav .link {
+color: #212121;
+font-style: 400;
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+}
+.link:hover {
+    color: #2196f3;
+    }
+    
+.site-nav .mail .number {
+    color:#757575
+     ;
+}
+.mail:hover {
+    color: #2196f3;
+}
+.number:hover {
+    color: #2196f3;
+}
+
+.page .site-auth {
+font-style: 400;
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+color: #212121;
+
+}
+/* hero! */
+.hero {
+    background-color: #2F303A ;
+}
+.hero .hero-title {
+color: #ffffff ;
+font-style: 400;
+font-weight: 900;
+font-size: 44px;
+line-height: 1.36;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+}
+
+.hero .button-services:hover {
+    color: #ffffff;
+    background-color: #2196f3;
+}
+
+
+/* работы */
+
+
+.work-title {
+color: #212121;
+font-style: 400;
+font-weight: 700;
+font-size: 36px;
+line-height: 1.16;
+letter-spacing: 0.03em;
+}
+
+
+/* команда */
+
+.team-title{
+color: #212121 ;
+font-style: 400;
+font-weight: 700;
+font-size: 36px;
+line-height: 1.16;
+letter-spacing: 0.03em;
+}
+.team .name {
+color: #212121;
+font-style: 400;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.19;
+letter-spacing: 0.03em;
+}
+.team .team-pos {
+color: #757575;
+font-size: 16px;
+line-height: 1.19;
+letter-spacing: 0.03em;
+
+}
+
+/* advantages */
+
+.advantages .advantages-name {
+color: #212121;
+font-style: 400;
+font-weight: 700;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+
+}
+.advantages .advantages-list {
+color: #757575;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+}
+
+
+/* фильтр */
+
+.filter .button-services:hover {
+color: #ffffff;
+background-color: #2196f3;
+font-family: Roboto;
+font-style: 400;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.62;
+text-align: center;
+letter-spacing: 0.03em; 
+}
+
+/* Работа */
+.work-show .name {
+color: #212121;
+font-style: 400;
+font-weight: 700;
+font-size: 18px;
+line-height: 2;
+letter-spacing: 0.06em;
+
+
+ 
+}
+.work-show .type {
+    color: #757575;
+    font-size: 16px;
+line-height: 1.87;
+letter-spacing: 0.03em;
+}
+/* футер */
+.footer .logo {
+color: #2196f3;
+font-family: Raleway;
+font-style: normal;
+font-weight: bold;
+font-size: 26px;
+line-height: 1.2;
+letter-spacing: 0.03em;
+}
+.footer .adress {
+    background-color: #212121;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: #FFFFFF    
+}
