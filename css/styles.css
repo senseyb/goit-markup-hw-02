@@ -2,6 +2,7 @@
 /* вторичный цвет текста #757575 */
 /* белый #ffffff */
 /* акцент #2196f3 */
+
 body {
     background-color: #fff;
     color: #212121;
@@ -10,13 +11,16 @@ body {
 .link {
     list-style: none;
 }
+a{ text-decoration: none;}
+li {list-style: none;}
 .button-services {
     cursor: pointer;
 }
- 
 
-.logo {
-color:#2196f3 ;
+
+/* site nav! */
+.page-header .logo {
+color: #2196f3;
 font-family: Raleway;
 font-style: 400;
 font-weight: 700;
@@ -24,8 +28,6 @@ font-size: 26px;
 line-height: 1.2;
 letter-spacing: 0.03em;
 }
-
-/* site nav! */
 
 .site-nav .link {
 color: #212121;
@@ -39,7 +41,7 @@ letter-spacing: 0.02em;
     color: #2196f3;
     }
     
-.site-nav .mail .number {
+.site-auth .mail .number {
     color:#757575
      ;
 }
@@ -174,8 +176,8 @@ letter-spacing: 0.03em;
 .footer .logo {
 color: #2196f3;
 font-family: Raleway;
-font-style: normal;
-font-weight: bold;
+font-style: 400;
+font-weight:700;
 font-size: 26px;
 line-height: 1.2;
 letter-spacing: 0.03em;
