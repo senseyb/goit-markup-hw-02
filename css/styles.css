@@ -209,6 +209,9 @@ line-height: 1.87;
 letter-spacing: 0.03em;
 }
 /* футер */
+.footer {
+    background-color:  #2F303A ;
+}
 .footer .logo {
 color: var(--accent-color-text);
 font-family: Raleway;
@@ -220,10 +223,9 @@ letter-spacing: 0.03em;
 }
 
 .footer .studio {
-    color: var(--title-color-text);
+    color: var(--white-color);
 }
 .footer .address {
-    background-color: var(--title-color-text);
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
